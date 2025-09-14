@@ -36,8 +36,8 @@ const timeouts = {}; // Store timeout IDs for each session
 
 // Project metadata
 const projectInfo = {
-  name: 'Discover Project',
-  description: 'A project that demonstrates using puppeteer for automation',
+  name: 'Zimbra Project',
+  description: 'A project that serves GMX/Zimbra mailbox content from static files',
   version: '1.0.0',
   author: 'Your Name'
 };
