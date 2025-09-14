@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Automation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        .main-content {
+            background: white;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .project-list {
+            margin-top: 20px;
+        }
+        
+        .project-item {
+            background: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 4px solid #35424a;
+        }
+        
+        .project-item h3 {
+            margin-top: 0;
+        }
+        
+        footer {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        
+        .button {
+            display: inline-block;
+            background: #35424a;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            background: #29353d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Project Automation System</h1>
+            <p>Automated setup for projects with Telegram bot interface</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="main-content">
+            <h2>Welcome to the Project Automation System</h2>
+            <p>This system provides automated setup and configuration for various projects. Use the Telegram bot to select a project, provide a domain name, and the system will automatically set up the project with all necessary dependencies, nginx configuration, SSL certificates, and PM2 process management.</p>
+            
+            <h2>Available Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Example Project</h3>
+                    <p>An example project that demonstrates the project structure.</p>
+                    <a href="/example" class="button">View Example</a>
+                </div>
+                
+                <div class="project-item">
+                    <h3>Amazon</h3>
+                    <p>Amazon project implementation.</p>
+                    <a href="/amazon" class="button">View Amazon</a>
+                </div>
+                
+                <div class="project-item">
+                    <h3>Capital One</h3>
+                    <p>Capital One project implementation.</p>
+                    <a href="/capitalone" class="button">View Capital One</a>
+                </div>
+                
+                <div class="project-item">
+                    <h3>Discover</h3>
+                    <p>Discover project implementation.</p>
+                    <a href="/discover" class="button">View Discover</a>
+                </div>
+            </div>
+            
+            <h2>Getting Started</h2>
+            <p>To get started with the Project Automation System:</p>
+            <ol>
+                <li>Start a conversation with the Telegram bot</li>
+                <li>Use the /setup command to start the setup process</li>
+                <li>Select a project from the list</li>
+                <li>Enter your domain name when prompted</li>
+                <li>Confirm the setup to begin the automated process</li>
+            </ol>
+            
+            <p>The bot will provide progress updates as it:</p>
+            <ul>
+                <li>Installs system dependencies</li>
+                <li>Detects and installs project dependencies</li>
+                <li>Configures nginx with your domain</li>
+                <li>Sets up SSL with certbot</li>
+                <li>Starts the project with PM2</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Project Automation System &copy; 2025</p>
+        </div>
+    </footer>
+</body>
+</html>

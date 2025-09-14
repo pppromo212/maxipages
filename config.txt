@@ -1,0 +1,11 @@
+cloudflare_email=ma.ria.da.l.i.say.y@googlemail.com
+cloudflare_password=u$TyPbybPqG3SLrlhR
+cloudflare_account_id=0a929d0e72813fd205584533bea690e7
+cloudflare_api_key=ad6434a3dd41a6c479eca46c6e66096301be0
+cloudflare_email2=getdulgeohh@proton.me
+cloudflare_password2=XgFNJeAgZcTkvp2TG&
+cloudflare_account_id2=8de3e812c3e47d26259be2ad4f347fc5
+cloudflare_api_key2=08854da31ad32316f654b25039a819f0b8de1
+
+
+account_subdomain=tp1xa5ymjzepol

@@ -1,0 +1,37 @@
+{
+  "name": "project-automation",
+  "version": "1.0.0",
+  "description": "Automated setup for projects with Telegram bot interface",
+  "main": "project.js",
+  "type": "module",
+  "scripts": {
+    "start": "node project.js",
+    "bot": "node telegram_bot.js",
+    "setup": "bash setup.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "automation",
+    "telegram",
+    "bot",
+    "nginx",
+    "ssl",
+    "pm2"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "express-session": "^1.17.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "puppeteer": "^21.5.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
